@@ -1,0 +1,25 @@
+.menuTop {
+  background-color: rgba(255, 255, 255, 0.375);
+  border: 1px solid rgba(224, 224, 224, 0.642);
+  z-index: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.menuTop a {
+  text-decoration: none;
+  color: black;
+  height: 100%;
+  width: 100%;
+}
+.menuTop li {
+  list-style: none;
+  background: whitesmoke;
+  padding: 15px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.logo img {
+  width: 100px;
+}
